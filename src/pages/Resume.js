@@ -41,7 +41,7 @@ export const Resume = () => {
         </div>
 
         <div className="flex flex-col">
-          <div className="text-3xl text-blue-700 mx-5 font-semibold my-3 py-1">
+          <div className="text-3xl text-blue-700 mx-5 font-semibold my-3 py-1 ">
             Experience
           </div>
           <Experience
@@ -66,23 +66,23 @@ export const Resume = () => {
         <h1 className="text-3xl py-3 font-bold text-blue-700">Skills</h1>
         <p className="text-xl py-3">HTML</p>
         <div class="w-4/5 bg-[#ddd] h-6">
-          <div class="text-right bg-blue-900 h-6  text-[#000] w-10/12"></div>
+          <div class="text-right bg-blue-700 h-6  text-[#000] w-10/12"></div>
         </div>
         <p className="text-xl py-3">CSS</p>
         <div class="w-4/5 h-6  bg-[#ddd]">
-          <div class="text-right bg-blue-900 h-6 text-[#000] w-8/12"></div>
+          <div class="text-right bg-blue-700 h-6 text-[#000] w-8/12"></div>
         </div>
         <p className="text-xl py-3">JavaScript</p>
         <div class="w-4/5 h-6 bg-[#ddd]">
-          <div class="text-right bg-blue-900 h-6 text-[#000] w-8/12"></div>
+          <div class="text-right bg-blue-700 h-6 text-[#000] w-8/12"></div>
         </div>
         <p className="text-xl py-3">C/C++</p>
         <div class="w-4/5 bg-[#ddd] h-6">
-          <div class="text-right bg-blue-900 h-6  text-[#000] w-9/12"></div>
+          <div class="text-right bg-blue-700 h-6  text-[#000] w-9/12"></div>
         </div>
         <p className="text-xl py-3">JAVA</p>
         <div class="w-4/5 bg-[#ddd] h-6">
-          <div class="text-right bg-blue-900 h-6  text-[#000] w-6/12"></div>
+          <div class="text-right bg-blue-700 h-6  text-[#000] w-6/12"></div>
         </div>
       </div>
     </div>
