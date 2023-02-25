@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./image.jpg";
+import Image from 'E:/React/myportfolio/src/pages/Images/image.jpg';
 
 export const Aboutme = () => {
   return (
