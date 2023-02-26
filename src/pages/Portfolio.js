@@ -4,6 +4,8 @@ import { Project } from "../components/Project";
 
 export const Portfolio = () => {
   return (
+    <div className="bg-gradient-to-r from-gray-100 to-gray-300 font-poppins">
+
     <div className="w-7/12 mx-auto">
       <div className="flex flex-col mx-auto">
         <h1 className="text-3xl my-7 font-bold text-blue-700">My Portfolio</h1>
@@ -49,6 +51,7 @@ export const Portfolio = () => {
           aliquid fuga eum quidem. Sit sint consectetur velit."
         />
       </div>
+    </div>
     </div>
   );
 };

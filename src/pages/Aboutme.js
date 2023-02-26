@@ -1,13 +1,16 @@
 import React from "react";
 import Image from 'E:/React/myportfolio/src/pages/Images/image.jpg';
 
+
 export const Aboutme = () => {
+  
   return (
     <>
-      <div className="">
+
+      <div className="bg-gradient-to-r from-gray-100 to-gray-300 h-screen font-poppins">
         <div className="w-7/12 flex flex-col mx-auto">
           <h1 className="text-3xl my-7 font-bold text-blue-700">About</h1>
-          <p className="font-normal text-lg">
+          <p className="font-normal text-lg font-poppins">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
             aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
             quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
@@ -36,9 +39,9 @@ export const Aboutme = () => {
                     className="h-8 w-8 "
                   />
                   <strong className="text-lg text-blue-700">
-                    <pre>Birthday:</pre>{" "}
+                    <pre>Birthday:</pre>
                   </strong>
-                  <p className="text-lg"> 05 August 2003</p>
+                  <p className="text-lg">5 August 2003 </p>
                 </div>
 
                 <div className="flex my-3">
@@ -48,7 +51,7 @@ export const Aboutme = () => {
                     className="h-8 w-8 "
                   />
                   <strong className="text-lg text-blue-700">
-                    <pre>website:</pre>{" "}
+                    <pre>website:</pre>
                   </strong>
                   <p className="text-lg"> www.example.com</p>
                 </div>
@@ -86,7 +89,7 @@ export const Aboutme = () => {
                     className="h-8 w-8 "
                   />
                   <strong className="text-lg text-blue-700">
-                    <pre>Age:</pre>{" "}
+                    <pre>Age:</pre>
                   </strong>
                   <p className="text-lg"> 19</p>
                 </div>
@@ -98,9 +101,9 @@ export const Aboutme = () => {
                     className="h-8 w-8 "
                   />
                   <strong className="text-lg text-blue-700">
-                    <pre>Degree:</pre>{" "}
+                    <pre>Degree:</pre>
                   </strong>
-                  <p className="text-lg"> BTECH</p>
+                  <p className="text-lg"> Btech (IT) </p>
                 </div>
 
                 <div className="flex my-3">

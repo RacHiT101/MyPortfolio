@@ -4,9 +4,11 @@ import { Experience } from "../components/Experience";
 
 export const Resume = () => {
   return (
+    <div className="bg-gradient-to-r from-gray-100 to-gray-300">
+
     <div className="flex flex-col w-7/12 mx-auto">
-      <h1 className="text-3xl my-7 font-bold text-blue-700 mx-2">Resume</h1>
-      <p className="font-normal text-lg mx-5">
+      <h1 className="text-3xl my-7 font-bold text-blue-700 mx-2 font-poppins">Resume</h1>
+      <p className="font-normal text-lg mx-5 text-black">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
         quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
@@ -86,5 +88,6 @@ export const Resume = () => {
         </div>
       </div>
     </div>
+            </div>
   );
 };

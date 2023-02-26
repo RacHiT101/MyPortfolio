@@ -4,7 +4,7 @@ import Image1 from "./assests/image.jpg";
 
 const Navbar = () => {
   return (
-    <div className="bg-black text-gray-300 flex flex-col w-1/5 h-full fixed">
+    <div className="bg-black text-gray-300 flex flex-col w-1/5 h-full fixed font-poppins">
       <div className="flex flex-col items-center">
         <img
           src={Image1}

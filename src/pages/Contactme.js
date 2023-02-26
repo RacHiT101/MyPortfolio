@@ -2,7 +2,9 @@ import React from "react";
 
 export const Contactme = () => {
   return (
-    <div className="flex flex-col mx-[21%]">
+    // <div className="bg-gradient-to-r from-gray-100 to-gray-300">
+
+    <div className="flex flex-col mx-[21%] font-poppins">
       <div className=" flex flex-col">
         <h1 className="text-3xl my-7 font-bold text-blue-700">Contact</h1>
         <p className="font-normal text-lg">
@@ -11,8 +13,8 @@ export const Contactme = () => {
           quisquam cupiditate.
         </p>
       </div>
-      <div className="flex mt-10">
-        <div className="flex flex-col h-full py-10 bg-[#e9ecef] p-3 w-1/2 justify-evenly">
+      <div className="flex mt-10 gap-8 font-poppins">
+        <div className="flex flex-col h-full py-10 bg-[#e9ecef] p-3 w-1/2 justify-evenly rounded-2xl">
           <div className="flex flex-col">
             <div className="flex">
               <img
@@ -45,7 +47,7 @@ export const Contactme = () => {
             <p className="mx-12"> 9372950825 </p>
           </div>
           <div className="flex">
-            <a href="https://github.com/RacHiT101">
+            <a href="https://github.com/RacHiT101" target="blank">
               <img
                 src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png"
                 alt="GitHub"
@@ -57,7 +59,7 @@ export const Contactme = () => {
                 src="https://tse1.mm.bing.net/th?id=OIP.zYFY027dJy-cyIlH_cWapwHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
                 alt="Instagram"
                 className="h-10 px-1"
-              />
+                />
             </a>
 
             <img
@@ -83,33 +85,33 @@ export const Contactme = () => {
           </div>
         </div>
 
-        <div className="flex flex-col p-3 bg-[#e9ecef] w-1/2 mx-5">
+        <div className="flex flex-col bg-[#e9ecef] w-1/2 rounded-2xl p-5">
           <div className="pb-5 text-xl  text-blue-700 font-semibold">
             {" "}
             Your Name
             <input
               type="text"
               // placeholder="Your Name"
-              className="h-14 border-2 px-2 w-[400px] border-blue-200/100"
+              className="h-14 border-2 px-2 w-[400px] border-blue-200/100 shadow-lg shadow-gray-500 rounded-xl"
               required
             ></input>
           </div>
-          <div className="pb-5 text-xl  text-blue-700 font-semibold ">
+          <div className="pb-5 text-xl  text-blue-700 font-semibold">
             {" "}
             Your Email
             <input
               type="text"
               // placeholder="Your Email"
-              className="h-14 border-2 px-2 w-[400px] border-blue-200/100"
+              className="h-14 border-2 px-2 w-[400px] border-blue-200/100 shadow-lg shadow-gray-500 rounded-xl"
               required
             ></input>
           </div>
-          <div className="pb-5 text-xl  text-blue-700 font-semibold 0">
+          <div className="pb-5 text-xl  text-blue-700 font-semibold ">
             Subject
             <input
               type="text"
               // placeholder="Subject"
-              className="h-14  border-2 px-2 w-[400px] border-blue-200/100"
+              className="h-14  border-2 px-2 w-[400px] border-blue-200/100 shadow-lg shadow-gray-500 rounded-xl"
               required
             ></input>
           </div>
@@ -118,12 +120,13 @@ export const Contactme = () => {
             <input
               type="text"
               // placeholder="Message"
-              className="h-28 text border-2  px-2 w-[400px] border-blue-200/100"
+              className="h-28 text border-2  px-2 w-[400px] border-blue-200/100 shadow-lg shadow-gray-500 rounded-xl"
               required
             ></input>
           </div>
         </div>
       </div>
     </div>
+              // </div>
   );
 };
