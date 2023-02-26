@@ -5,8 +5,8 @@ import { Experience } from "../components/Experience";
 export const Resume = () => {
   return (
     <div className="flex flex-col w-7/12 mx-auto">
-      <h1 className="text-3xl my-7 font-bold text-blue-700">Resume</h1>
-      <p className="font-normal text-lg">
+      <h1 className="text-3xl my-7 font-bold text-blue-700 mx-2">Resume</h1>
+      <p className="font-normal text-lg mx-5">
         Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
         aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
         quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
@@ -63,7 +63,7 @@ export const Resume = () => {
       </div>
 
       <div className="flex flex-col mb-10 ">
-        <h1 className="text-3xl py-3 font-bold text-blue-700">Skills</h1>
+        <h1 className="text-3xl py-3 font-bold text-blue-700 mx-2">Skills</h1>
         <p className="text-xl py-3">HTML</p>
         <div class="w-4/5 bg-[#ddd] h-6">
           <div class="text-right bg-blue-700 h-6  text-[#000] w-10/12"></div>
